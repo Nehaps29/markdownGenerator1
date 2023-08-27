@@ -2,6 +2,7 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
+const path = require('path');
 // TODO: Create an array of questions for user input
 const questions = [ {
     type: 'input',
@@ -33,12 +34,12 @@ const questions = [ {
     name: 'instructions',
     message: 'Enter test instructions',
   },
-  /*{
+  {
     type: 'list',
     name: 'license',
     message: 'What license does your project use?',
-    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'None']
-  },*/
+    choices: ['MIT', 'APACHE 2.0', 'GPL 3.0', 'BSD 3']
+  },
   {
     type: 'input',
     name: 'github',
@@ -46,8 +47,8 @@ const questions = [ {
   },
   {
     type: 'input',
-    name: 'linkedin',
-    message: 'Enter your LinkedIn URL.',
+    name: 'email',
+    message: 'Enter your Email address.',
   },];
 
 // TODO: Create a function to write README file
@@ -70,8 +71,6 @@ function init() {
   inquirer
   .prompt(questions)
   .then((answers) => {
-    var markdown = generateMarkdown(answers);
-
     writeToFile('oldREADME.md', generateMarkdown({...answers}));
   });
 
