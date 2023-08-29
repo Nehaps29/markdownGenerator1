@@ -63,8 +63,17 @@ function generateMarkdown(data) {
   let licenseLink = renderLicenseLink(data.license);
   let licenseSection = renderLicenseSection(data.license);
   return `# ${data.title}
-  ## Description: 
+  ## Description
   ${data.description}
+  ## Table of Content
+
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contribution Details](#contribution-details)
+  - [Test Instructions](#test-instructions) 
+  - [GitHub](#github)
+  - [Email ID](#email-id)
+
   ## Installation: 
   ${data.installation}
   ## Usage:
@@ -74,11 +83,13 @@ function generateMarkdown(data) {
   ## Test Instructions: 
   ${data.instructions}
 
-  ##License: ${licenseSection}
+  ##Licensed under: ${licenseSection}
 
   ${licenseBadge}    
   ${licenseLink} 
-  Below mentioned in my github profile and email address if you want to get in touch with me
+
+  
+  Below mentioned is my github profile link and email address if you want to get in touch with me
   ## Github: https://github.com/${data.github}
   ## Email id: ${data.email}
   
