@@ -71,7 +71,9 @@ function generateMarkdown(data) {
   - [Usage](#usage)
   - [Contribution Details](#contribution-details)
   - [Test Instructions](#test-instructions) 
-  - [Contact](#contact-info)
+  - [License](#licenses)
+  - [Contact](#contact)
+  
   
 
   ## Installation: 
@@ -83,17 +85,17 @@ function generateMarkdown(data) {
   ## Test Instructions: 
   ${data.instructions}
 
-  ##Licensed under: ${licenseSection}
-
+  ## Licenses: 
+  ${licenseSection}
   ${licenseBadge}    
   ${licenseLink} 
 
   
-  ##Contact Info: Below mentioned is my github profile link and email address if you want to get in touch with me
-  ## Github: https://github.com/${data.github}
-  ## Email id: ${data.email}
-  
+  ## Contact: 
+  Below mentioned is my github profile link and email address if you want to get in touch with me
 
+  ## Github: https://github.com/${data.github}
+  ## Email ID: ${data.email}
 `;
 }
 

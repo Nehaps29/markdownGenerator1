@@ -7,26 +7,28 @@
   - [Usage](#usage)
   - [Contribution Details](#contribution-details)
   - [Test Instructions](#test-instructions) 
-  - [Contact](#contact-info)
+  - [License](#licenses)
+  - [Contact](#contact)
+  
   
 
   ## Installation: 
-  node.js, inquirer and fs packages
+  node.js
   ## Usage:
-  None
+  to create readme file
   ## Contribution Details: 
-  Neha Sabannavar
+  Neha S
   ## Test Instructions: 
   none
 
-  ##Licensed under: MIT
-
+  ## Licenses: 
+  MIT
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)    
   https://opensource.org/licenses/MIT 
 
   
-  ##Contact Info: Below mentioned is my github profile link and email address if you want to get in touch with me
-  ## Github: https://github.com/nehaps29
-  ## Email id: abc@abc.com
-  
+  ## Contact: 
+  Below mentioned is my github profile link and email address if you want to get in touch with me
 
+  ## Github: https://github.com/nehaps29
+  ## Email ID: abc@abc.com
