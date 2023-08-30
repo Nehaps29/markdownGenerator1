@@ -2,9 +2,16 @@
   ## Description
   My motivation behind creating this generator was to save some time while creating the README file. Outline is created and for specific details, input will be taken via question answer format. It uses node.js and inquirer and fs packages. In addition to General project related questions, it also has a contact details section so that github link and email address can be provided. Table of content is provided with associated section links.  Below is the link for sample readme file.
 
-  ## Sample README:
+  ## Sample README link:
+  https://github.com/Nehaps29/markdownGenerator1/blob/main/sampleREADME.md
+
+  ## Short Video Link showing how it is generated: 
+  https://drive.google.com/file/d/1WDDvmC99J4mKM3RN1tItwwO_GleqC0qI/view?usp=drive_link
+
+  It looks like below image:
 
 
+![Sample README image](pic.JPG)
 
   ## Table of Content
 
@@ -33,7 +40,7 @@
 
   
   ## Contact: 
-  Below mentioned is my github profile link and email address if you want to get in touch with me
+  Below mentioned is my github profile link 
 
   ## Github: https://github.com/nehaps29
-  ## Email ID: abc@abc.com
+ 
