@@ -1,6 +1,11 @@
 # README Generator
   ## Description
-  My motivation behind creating this generator was to save some time while creating the README file. Outline is created and for specific details, input will be taken via question answer format. It uses node.js and inquirer and fs packages. In addition to General project related questions, it also has a contact details section so that github link and email address can be provided. Table of content is provided with associated section links.  (This readme file is created via this markdown generator)
+  My motivation behind creating this generator was to save some time while creating the README file. Outline is created and for specific details, input will be taken via question answer format. It uses node.js and inquirer and fs packages. In addition to General project related questions, it also has a contact details section so that github link and email address can be provided. Table of content is provided with associated section links.  Below is the link for sample readme file.
+
+  ## Sample README:
+
+
+
   ## Table of Content
 
   - [Installation](#installation)
@@ -13,11 +18,11 @@
   
 
   ## Installation: 
-  node.js
+  node.js, inquirer and fs packages
   ## Usage:
-  to create readme file
+  use to generator readme file
   ## Contribution Details: 
-  Neha S
+  Neha Sabannavar, Rutgers TA, https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba
   ## Test Instructions: 
   none
 
